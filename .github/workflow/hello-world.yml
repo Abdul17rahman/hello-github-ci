@@ -5,5 +5,5 @@ jobs:
   says_hello:
     runs-on: ubuntu-latest
     steps:
-      -name: Say Hello
-      run: echo "Hello, Github"
+      - name: Say Hello
+        run: echo "Hello, world"
